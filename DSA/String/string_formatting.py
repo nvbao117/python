@@ -1,0 +1,18 @@
+string1 = "{} {} {}".format('geeks','for','life')
+print(string1)
+string1="{1} {0} {2}".format('geeks', 'for','life')
+print(string1)
+string1="{l} {f} {g}".format(g='geeks' , f='for',l='life')
+print(string1)
+string1 = "{0:b}".format(16)
+print(string1)
+string1="{0:e}".format(165.6458)
+print(string1)
+string1="{0:.3f}".format(1/6)
+print(string1)
+
+string1 = "|{:<10}|{:^10}|{:>10}|".format('geeks','for','geeks')
+print(string1)
+
+string1 = "\n{0:^16} was founded in {1:<4}!".format("GeeksforGeeks",2009)
+print(string1)
